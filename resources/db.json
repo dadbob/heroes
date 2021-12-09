@@ -1,0 +1,157 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "publisher": "Marvel",
+      "real_name": "Jane",
+      "hero_name": "Doe",
+      "appearance_at": "2021-04-03",
+      "powers": {
+        "data": [
+          {
+            "id": 1
+          },
+          {
+            "id": 2
+          },
+          {
+            "id": 3
+          }
+        ]
+      },
+      "teams": {
+        "data": [
+          {
+            "id": 1
+          },
+          {
+            "id": 2
+          },
+          {
+            "id": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "publisher": "Marvel 2",
+      "real_name": "Jane2",
+      "hero_name": "Doe2",
+      "appearance_at": "2021-04-03",
+      "powers": {
+        "data": [
+          {
+            "id": 4
+          },
+          {
+            "id": 5
+          },
+          {
+            "id": 6
+          }
+        ]
+      }
+    },
+    {
+      "publisher": "Marvel 3",
+      "real_name": "Jane2",
+      "hero_name": "Doe22",
+      "appearance_at": "2021-04-03",
+      "powers": {
+        "data": []
+      },
+      "id": 3,
+      "teams": {
+        "data": []
+      }
+    },
+    {
+      "real_name": "Real Name",
+      "hero_name": "Hero Name",
+      "publisher": "acme ind",
+      "appearance_at": "2021-12-17",
+      "powers": {
+        "data": [
+          {
+            "id": 4,
+            "name": "regeneration"
+          },
+          {
+            "id": 5,
+            "name": "flight"
+          }
+        ]
+      },
+      "teams": {
+        "data": [
+          {
+            "id": 3,
+            "name": "Other team 1"
+          },
+          {
+            "id": 4,
+            "name": "Other team 2"
+          }
+        ]
+      },
+      "id": 4
+    }
+  ],
+  "powers": [
+    {
+      "id": 1,
+      "name": "Physical strength"
+    },
+    {
+      "id": 2,
+      "name": "Durability"
+    },
+    {
+      "id": 3,
+      "name": "endurance"
+    },
+    {
+      "id": 4,
+      "name": "regeneration"
+    },
+    {
+      "id": 5,
+      "name": "flight"
+    },
+    {
+      "id": 6,
+      "name": "x-ray vision"
+    },
+    {
+      "id": 7,
+      "name": "superhuman breath"
+    },
+    {
+      "id": 8,
+      "name": "cling to walls"
+    },
+    {
+      "id": 9,
+      "name": "spyder-sense"
+    }
+  ],
+  "teams": [
+    {
+      "id": 1,
+      "name": "Justice League"
+    },
+    {
+      "id": 2,
+      "name": "Smash"
+    },
+    {
+      "id": 3,
+      "name": "Other team 1"
+    },
+    {
+      "id": 4,
+      "name": "Other team 2"
+    }
+  ]
+}
