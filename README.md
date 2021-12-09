@@ -1,7 +1,7 @@
 
-#- Heroes - 
+# - Heroes - 
 
-#How to:
+# How to:
 * Copy .env.example to .env and fill with your environment details
 
 * Run: php artisan migrate
@@ -14,7 +14,7 @@
 
 
 
-##Credits
+## Credits
 * [Lumen PHP Framework](https://lumen.laravel.com/).
 ## License
 
