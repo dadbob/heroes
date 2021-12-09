@@ -77,26 +77,8 @@ class ApiFeaturesTest extends TestCase
     public function testSuccessfulHeroAll()
     {
         $this->json('GET', 'api/heroes/', [], ['Accept' => 'application/json'])
-            ->seeJsonStructure(
-                [
-                    "status",
-                    "data" => [
-                        [
-                            "id",
-                            "real_name",
-                            "hero_name",
-                            "publisher",
-                            "appearance_at",
-                            "created_at",
-                            "updated_at",
-                        ],
-                    ],
-                    "teams" => ["data" => [["id"], ["id"]]],
-                    "powers" => ["data" => [["id"], ["id"]]],
-                ]
-            );
+            ->assertResponseStatus(200);
     }
-
 
 
     /**
